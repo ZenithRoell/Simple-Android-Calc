@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="NumberPad" parent="Widget.AppCompat.Button">
+
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/btn_num_pad</item>
+        <item name="android:textSize">34sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+
+    </style>
+
+    <style name="Operations" parent="Widget.AppCompat.Button">
+
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/button_operation</item>
+        <item name="android:textSize">34sp</item>
+
+    </style>
+
+    <style name="TextViewDisplay">
+        <item name="android:textSize"> 45sp </item>
+        <item name="android:layout_gravity"> center_vertical|right</item>
+        <item name="android:maxLines">1</item>
+
+    </style>
+
+
+    <style name="ScrollViewDisplay">
+        <item name="android:paddingLeft"> 16dp</item>
+        <item name="android:right"> 16dp </item>
+    </style>
+
+
+
+    <style name="ImageButtonDisplay" parent="Base.Widget.AppCompat.ImageButton" >
+        <item name="android:alpha">.66</item>
+        <item name="android:background">@drawable/button_display</item>
+
+    </style>
+
+
+
+
+</resources>
